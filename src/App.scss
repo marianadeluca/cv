@@ -1,4 +1,7 @@
+@import './_assets/_variables.scss';
+
 .App {
+  background-color: $color-black;
   text-align: center;
 }
 
@@ -28,11 +31,3 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
