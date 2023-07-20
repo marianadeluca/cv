@@ -1,12 +1,16 @@
 import './under-construction.styles.scss';
+import { useTranslation } from 'react-i18next';
+
 
 function UnderConstruction() {
 
+    const { t } = useTranslation();
+
     return(
         <div className="page-under-construction"> 
-        
+
             <span className="page-under-construction__text">
-                this page is under construction.
+                {t("underConstruction")}
             </span>
 
             <small className="page-under-construction__footer">
