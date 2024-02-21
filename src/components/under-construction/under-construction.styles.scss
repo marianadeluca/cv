@@ -1,38 +1,89 @@
-@import '../../_assets/_variables.scss';
+@import "../../_assets/_variables.scss";
 
 .page-under-construction {
-    align-items: center;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    font-family: $font-mono;
-    font-size: 3em;
-    justify-content: center;
-    height: 100vh;
-    
-    &__text,
-    &__footer {
-        display: block;
-    }
-    
-    &__footer {
-        font-size: 0.7rem;
-        position: absolute;
-        bottom: 3vh;
-    }
-    
-    &__text {
-        background: -webkit-linear-gradient(left, $color-1, $color-2, $color-3, $color-4, $color-5, $color-6);
-        background: -o-linear-gradient(right, $color-1, $color-2, $color-3, $color-4, $color-5, $color-6);
-        background: -moz-linear-gradient(right, $color-1, $color-2, $color-3, $color-4, $color-5, $color-6);
-        background: linear-gradient(to right, $color-1, $color-2, $color-3, $color-4, $color-5, $color-6); 
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-weight: 700;
+  align-items: center;
+  color: $color-white;
+  background-color: $color-black;
+  display: flex;
+  flex-direction: column;
+  font-family: $font-mono;
+  font-size: 1.8rem;
+  justify-content: center;
+  height: calc(100vh - 100px);
 
-        &:hover {
-            cursor: wait;
-        }
+  &__text,
+  &__footer {
+    display: block;
+  }
+
+  &__footer {
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 3vh;
+  }
+
+  &__text {
+    text-align: center;
+    background: -webkit-linear-gradient(
+      left,
+      $color-1,
+      $color-2,
+      $color-3,
+      $color-4,
+      $color-5,
+      $color-6
+    );
+    background: -o-linear-gradient(
+      right,
+      $color-1,
+      $color-2,
+      $color-3,
+      $color-4,
+      $color-5,
+      $color-6
+    );
+    background: -moz-linear-gradient(
+      right,
+      $color-1,
+      $color-2,
+      $color-3,
+      $color-4,
+      $color-5,
+      $color-6
+    );
+    background: linear-gradient(
+      to right,
+      $color-1,
+      $color-2,
+      $color-3,
+      $color-4,
+      $color-5,
+      $color-6
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+
+    &:hover {
+      cursor: wait;
     }
+
+    @media only screen and (min-width: $sm) {
+      font-size: 2.6rem;
+    }
+
+    @media only screen and (min-width: $md) {
+      font-size: 2.8rem;
+      padding: 2rem;
+    }
+
+    @media only screen and (min-width: $lg) {
+      font-size: 3.2rem;
+    }
+
+    @media only screen and (min-width: $xl) {
+      font-size: 3.8rem;
+    }
+  }
 }

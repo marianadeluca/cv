@@ -1,6 +1,7 @@
 {
-    "greeting": "Hello",
-    "text": "Thank you for visiting our website.",
-    "language": "Language",
-    "underConstruction": "this page is under construction."
-  }
+  "greeting": "Hello",
+  "text": "Thank you for visiting our website.",
+  "language": "Language",
+  "underConstruction": "this page is under construction.",
+  "enterBtn": "enter"
+}

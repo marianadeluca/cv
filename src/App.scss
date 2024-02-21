@@ -1,33 +1,34 @@
-@import './_assets/_variables.scss';
+@import "./_assets/_variables.scss";
 
-.App {
+body {
+  background-color: $color-white;
+  color: $color-black;
   background-color: $color-black;
-  text-align: center;
+  color: $color-white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $color-black;
+    color: $color-white;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+  width: 8px; /* largura da barra de rolagem */
 }
 
-.App-link {
-  color: #61dafb;
+/* Estilizando o rastreamento (o fundo da barra de rolagem) */
+::-webkit-scrollbar-track {
+  background: $color-light-gray; /* cor de fundo */
 }
 
+/* Estilizando o polegar (a parte da barra de rolagem que você pode arrastar) */
+::-webkit-scrollbar-thumb {
+  background: $color-dark-gray; /* cor do polegar */
+}
+
+/* Mudar a aparência do polegar quando estiver sendo arrastado */
+::-webkit-scrollbar-thumb:hover {
+  background: $color-black; /* cor do polegar ao passar o mouse */
+}

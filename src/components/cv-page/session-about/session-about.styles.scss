@@ -1,0 +1,15 @@
+@import "../../../_assets/_variables.scss";
+
+.about {
+  background-color: $color-white;
+  color: $color-black;
+  font-family: "Courier New", Courier, monospace;
+  margin: auto;
+  min-height: 80vh;
+  padding-top: 20px;
+  width: 75vw;
+
+  &__animation {
+    color: $color-2;
+  }
+}

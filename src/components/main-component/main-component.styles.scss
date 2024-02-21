@@ -1,0 +1,61 @@
+@import "../../_assets/_variables.scss";
+
+.container {
+  text-align: center;
+  .btn-enter {
+    background: none;
+    border: 2pt solid $color-white;
+    border-radius: 1rem;
+    bottom: 10rem;
+    color: $color-white;
+    cursor: pointer;
+    font-family: $font-mono;
+    font-size: 1.4rem;
+    letter-spacing: 0.3rem;
+    position: relative;
+    padding: 1.4rem 3.2rem;
+    text-transform: uppercase;
+    max-height: 100px;
+
+    &__fade-in-out,
+    &__hidden {
+      opacity: 1;
+    }
+
+    @media only screen and (min-width: $sm) {
+      font-size: 1.8rem;
+      padding: 1.8rem 3.6rem;
+    }
+
+    @media only screen and (min-width: $md) {
+      padding: 2rem 4rem;
+      bottom: 16rem;
+
+      &__fade-in-out {
+        opacity: 1;
+        transition: opacity 0.5s ease-in-out;
+      }
+
+      &__hidden {
+        opacity: 0;
+      }
+
+      &:active {
+        border-color: $color-light-gray;
+        color: $color-light-gray;
+      }
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+
+    @media only screen and (min-width: $lg) {
+      bottom: 18rem;
+    }
+
+    @media only screen and (min-width: $xl) {
+      bottom: 20rem;
+    }
+  }
+}

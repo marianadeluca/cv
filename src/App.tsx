@@ -1,12 +1,14 @@
-import React from 'react';
-import './App.scss';
+import React from "react";
+import "./App.scss";
 
-import UnderConstruction from './components/under-construction/under-construction.component';
+import MainComponent from "./components/main-component/main-component.component";
+import ToggleLanguages from "./components/toggle-languages/toggle-languages.component";
 
 function App() {
   return (
     <div className="App">
-      <UnderConstruction />
+      <ToggleLanguages />
+      <MainComponent />
     </div>
   );
 }

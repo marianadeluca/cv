@@ -1,0 +1,35 @@
+@import "../../_assets/_variables.scss";
+
+.toggle-languages {
+  padding: 0 0.5vh 1.5vh 0.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: fixed;
+  right: 0;
+  top: 1.2vh;
+
+  &__btn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0 0 0 3px;
+
+    &:hover {
+      filter: saturate(1.5);
+    }
+
+    .normal {
+      filter: saturate(1);
+    }
+
+    .gray {
+      filter: saturate(0) contrast(70%) opacity(50%);
+
+      &:hover {
+        filter: saturate(1.5);
+      }
+    }
+  }
+}
