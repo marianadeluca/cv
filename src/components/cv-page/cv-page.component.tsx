@@ -4,6 +4,8 @@ import SessionAbout from "./session-about/session-about.component";
 import SessionWorkExperience from "./session-work-experience/session-work-expeirence.component";
 
 // https://brittanychiang.com/#about
+// https://www.taniarascia.com/
+// https://davidmiller.io/
 
 function CvPage() {
   return (
