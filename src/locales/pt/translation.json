@@ -1,7 +1,33 @@
 {
-  "greeting": "Olá",
-  "text": "Obrigada por visitar nosso site.",
-  "language": "Língua.",
-  "underConstruction": "oops! página em construção.",
-  "enterBtn": "entrar"
+  "education": {
+    "courseDesign": "Bacharelado em Design Gráfico",
+    "courseGames": "Tecnólogo em Jogos Digitais"
+  },
+  "enterBtn": "entrar",
+  "greetings": {
+    "name": "Olá! Eu sou a Mariana...",
+    "developer": "Eu sou desenvolvedora web."
+  },
+
+  "months": {
+    "january": "jan",
+    "february": "fev",
+    "march": "mar",
+    "april": "abr",
+    "may": "mai",
+    "june": "jun",
+    "july": "jul",
+    "august": "ago",
+    "september": "set",
+    "october": "out",
+    "november": "nov",
+    "december": "dez"
+  },
+
+  "sections": {
+    "workExperience": "Experiência",
+    "education": "Formação acadêmica",
+    "languages": "Idiomas"
+  },
+  "underConstruction": "oops! página em construção."
 }

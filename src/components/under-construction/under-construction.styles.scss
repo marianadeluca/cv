@@ -8,18 +8,12 @@
   flex-direction: column;
   font-family: $font-mono;
   font-size: 1.8rem;
-  justify-content: center;
   height: calc(100vh - 100px);
+  justify-content: center;
+  padding: 0 1.2rem;
 
-  &__text,
-  &__footer {
+  &__text {
     display: block;
-  }
-
-  &__footer {
-    font-size: 0.7rem;
-    position: absolute;
-    bottom: 3vh;
   }
 
   &__text {
@@ -75,11 +69,11 @@
 
     @media only screen and (min-width: $md) {
       font-size: 2.8rem;
-      padding: 2rem;
+      padding: 1rem;
     }
 
     @media only screen and (min-width: $lg) {
-      font-size: 3.2rem;
+      font-size: 3rem;
     }
 
     @media only screen and (min-width: $xl) {

@@ -1,7 +1,34 @@
 {
-  "greeting": "Hello",
-  "text": "Thank you for visiting our website.",
-  "language": "Language",
-  "underConstruction": "this page is under construction.",
-  "enterBtn": "enter"
+  "education": {
+    "courseDesign": "Graphic Design Bachelor Degree",
+    "courseGames": "Digital Games Technology Degree"
+  },
+  "enterBtn": "enter",
+  "greetings": {
+    "name": "Hello! I'm Mariana...",
+    "developer": "I'm a web developer!"
+  },
+
+  "months": {
+    "january": "jan",
+    "february": "feb",
+    "march": "mar",
+    "april": "apr",
+    "may": "may",
+    "june": "jun",
+    "july": "jul",
+    "august": "aug",
+    "september": "sep",
+    "october": "oct",
+    "november": "nov",
+    "december": "dec"
+  },
+
+  "sections": {
+    "workExperience": "Work Experience",
+    "education": "Education",
+    "languages": "Languages"
+  },
+
+  "underConstruction": "this page is under construction."
 }

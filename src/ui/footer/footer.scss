@@ -1,0 +1,12 @@
+@import "../../_assets/_variables.scss";
+
+.footer {
+  font-size: 12px;
+  display: block;
+  width: 60vw;
+  bottom: 3vh;
+  text-align: center;
+  font-family: $font-mono;
+  color: $color-white;
+  padding-top: 40px;
+}

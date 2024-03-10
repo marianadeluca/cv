@@ -3,6 +3,8 @@
 .toggle-languages {
   position: fixed;
   height: 3vh;
+  right: 3vw;
+  margin-right: 1vw;
   top: 0;
   width: 100vw;
 
@@ -22,7 +24,7 @@
     background: none;
     border: none;
     color: inherit;
-    // font-family: $font-mono;
+    font-family: $font-mono;
     font-size: 10pt;
     font-weight: bold;
 
@@ -49,5 +51,8 @@
         filter: saturate(1.5);
       }
     }
+  }
+  @media only screen and (min-width: $lg) {
+    right: 0;
   }
 }

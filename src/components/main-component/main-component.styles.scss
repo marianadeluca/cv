@@ -6,7 +6,7 @@
     background: none;
     border: 2pt solid $color-white;
     border-radius: 1rem;
-    bottom: 10rem;
+    bottom: 8rem;
     color: $color-white;
     cursor: pointer;
     font-family: $font-mono;
@@ -25,11 +25,12 @@
     @media only screen and (min-width: $sm) {
       font-size: 1.8rem;
       padding: 1.8rem 3.6rem;
+      bottom: 4rem;
     }
 
     @media only screen and (min-width: $md) {
       padding: 2rem 4rem;
-      bottom: 16rem;
+      bottom: 6rem;
 
       &__fade-in-out {
         opacity: 1;
@@ -51,11 +52,13 @@
     }
 
     @media only screen and (min-width: $lg) {
-      bottom: 18rem;
+      padding: 2rem 4rem;
+      bottom: 8rem;
     }
 
     @media only screen and (min-width: $xl) {
-      bottom: 20rem;
+      padding: 2rem 4rem;
+      bottom: 10rem;
     }
   }
 }

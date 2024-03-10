@@ -1,0 +1,20 @@
+@import "../../../_assets/_variables.scss";
+
+.education {
+  &__course {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 48px;
+
+    &--title {
+      font-family: $font-mono;
+      h3 {
+        margin-block: 0;
+      }
+      h4 {
+        font-weight: normal;
+        font-style: italic;
+      }
+    }
+  }
+}
