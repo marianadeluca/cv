@@ -2,20 +2,21 @@
 
 .container {
   text-align: center;
+
   .btn-enter {
+    cursor: pointer;
     background: none;
     border: 2pt solid $color-white;
     border-radius: 1rem;
     bottom: 8rem;
     color: $color-white;
-    cursor: pointer;
     font-family: $font-mono;
     font-size: 1.4rem;
     letter-spacing: 0.3rem;
+    max-height: 100px;
     position: relative;
     padding: 1.4rem 3.2rem;
     text-transform: uppercase;
-    max-height: 100px;
 
     &__fade-in-out,
     &__hidden {
@@ -23,14 +24,14 @@
     }
 
     @media only screen and (min-width: $sm) {
+      bottom: 4rem;
       font-size: 1.8rem;
       padding: 1.8rem 3.6rem;
-      bottom: 4rem;
     }
 
     @media only screen and (min-width: $md) {
-      padding: 2rem 4rem;
       bottom: 6rem;
+      padding: 2rem 4rem;
 
       &__fade-in-out {
         opacity: 1;
@@ -52,13 +53,13 @@
     }
 
     @media only screen and (min-width: $lg) {
-      padding: 2rem 4rem;
       bottom: 8rem;
+      padding: 2rem 4rem;
     }
 
     @media only screen and (min-width: $xl) {
-      padding: 2rem 4rem;
       bottom: 10rem;
+      padding: 2rem 4rem;
     }
   }
 }

@@ -5,33 +5,29 @@
   padding: 6rem 2.4rem 0;
 
   @media only screen and (min-width: $lg) {
-    padding: 80px 48px 0;
-
-    max-width: 100vw;
-    width: 60vw;
     margin: 0 auto;
+    max-width: 100vw;
+    padding: 80px 48px 0;
+    width: 60vw;
   }
 
   &__footer {
+    border-top: 1pt solid $color-light-gray;
     display: block;
-    position: relative;
     left: 0;
     margin: 160px auto;
-    border-top: 1pt solid $color-light-gray;
     padding-bottom: 60px;
+    position: relative;
     width: 60vw;
   }
 
   &__header {
     @media only screen and (min-width: $lg) {
-      // background-color: red;
       position: fixed;
     }
   }
 
   &__sections {
-    // background-color: $color-light-gray;
-
     @media only screen and (min-width: $lg) {
       // TODO: REMOVE WHEN IMPLEMENTING MENU
       margin-left: 20vw;

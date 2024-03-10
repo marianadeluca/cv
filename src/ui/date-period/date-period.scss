@@ -1,8 +1,8 @@
 @import "../../_assets/_variables.scss";
 
 .date-period {
+  color: $color-light-gray;
   font-family: $font-mono;
   font-size: 12px;
   text-transform: capitalize;
-  color: $color-light-gray;
 }

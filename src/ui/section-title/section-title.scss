@@ -1,20 +1,20 @@
 @import "../../_assets/_variables.scss";
 
 .ui-section-title {
-  font-family: $font-mono;
-  margin: 80px 0 40px;
   background-color: $color-5;
+  border-radius: 1px;
+  font-family: $font-mono;
+  margin: 160px 0 40px;
   max-width: fit-content;
   padding: 12px 12px 10px 12px;
-  border-radius: 1px;
 
   &__text {
-    font-weight: normal;
     color: $color-black;
-    text-transform: uppercase;
-    text-align: left;
+    font-weight: normal;
     line-height: 1;
     margin: 0;
+    text-align: left;
     text-shadow: 1px 1px 2px $color-light-gray;
+    text-transform: uppercase;
   }
 }
