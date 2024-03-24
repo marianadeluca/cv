@@ -8,10 +8,12 @@ function SectionLanguages() {
   const { t } = useTranslation();
   const sectionLanguagesTitle = t("sections.languages");
   return (
-    <div className="work-experience">
+    <div className="languages">
       <div className="container">
         <UISectionTitle titleText={sectionLanguagesTitle} />
       </div>
+      <h3>Inglês</h3>
+      <h3>Espanhol</h3>
     </div>
   );
 }

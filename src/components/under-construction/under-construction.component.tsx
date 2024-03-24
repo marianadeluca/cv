@@ -1,9 +1,8 @@
-import UIFooter from "../../ui/footer/footer";
 import "./under-construction.styles.scss";
 import { useTranslation } from "react-i18next";
 
 function UnderConstruction() {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   const userLocale = navigator?.languages?.length
     ? navigator.languages[0]
     : navigator.language;

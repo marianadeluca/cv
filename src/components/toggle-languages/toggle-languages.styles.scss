@@ -13,14 +13,14 @@
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     right: 1.2vw;
     top: 1.2vh;
   }
 
   &__btn {
-    background-color: $color-black;
     cursor: pointer;
+    background-color: $color-black;
     background: none;
     border: none;
     color: inherit;

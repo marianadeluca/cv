@@ -18,6 +18,17 @@ function MainComponent() {
   }, []);
   // https://www.freecodecamp.org/news/how-to-use-settimeout-in-react-using-hooks/
 
+  useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (event.key === "Enter") setEnterSite(true);
+    };
+
+    document.addEventListener("keydown", handleKeyPress);
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+  }, []);
+
   const { t } = useTranslation();
 
   const enterCvPage = (btnPressed: boolean) => {

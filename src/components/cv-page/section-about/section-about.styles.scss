@@ -4,7 +4,8 @@
   align-items: end;
   display: flex;
   flex-direction: column;
-  font-family: "Courier New", Courier, monospace;
+  font-family: $font-mono;
+  // font-family: "Courier New", Courier, monospace;
   margin: auto;
   padding-top: 20px;
 
@@ -24,6 +25,7 @@
 
     &::after {
       content: "";
+      z-index: 2;
       border: 20px solid transparent;
       border-top-color: $color-light-gray;
       border-bottom: 0;
@@ -43,6 +45,15 @@
         margin-left: -24px;
       }
     }
+
+    // &--shadow {
+    //   z-index: -1;
+    //   margin-bottom: 80px;
+    //   padding: 48px 24px;
+    //   position: relative;
+    //   right: 0;
+    //   text-align: right;
+    // }
 
     @media only screen and (min-width: $md) {
       border-radius: 80px;

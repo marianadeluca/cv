@@ -24,8 +24,45 @@
     "december": "dez"
   },
 
+  "workExperience": {
+    "Encoda": {
+      "description": "Auxiliava na correção de bugs, manutenção e criação de páginas para a Fundação Estudar, entre outros clientes. Desenvolvia em ambiente Linux utilizando Docker e Git para versionamento; HTML5/CSS3, MySql, Ruby On Rails, AngularJS, JQuery,Bootstrap, Sass e Wordpress. Além disso, tive a oportunidade de ser responsável pela criação de um blog sobre RPG utilizando Ruby on Rails e Javascript, além de implementar ferramentas de SEO, o blog.rpgist.net.",
+      "role": "Estagiária de Desenvolvimento"
+    },
+    "Netwire": {
+      "description": "Atuava na preparação de arquivos de diversos formatos para serem processados por ferramentas de tradução. Recriação de arquivos PDF em formato editável e diagramação de arquivos, através de softwares como Adobe Indesign, Adobe Illustrator, Adobe Framemaker, Corel Draw e aplicativos Office. Também era responsável pela criação de cursos de E-learning através de ferramentas de Web-based Training (WBT), como os softwares da Articulate.",
+      "role": "Suporte Técnico"
+    },
+    "Thomson Reuters": {
+      "description": "Era responsável pelo desenvolvimento e manutenção de software voltado para a automatização de processos de comércio exterior, utilizando linguagens Oracle/PLSQL, Centura Team Developer, Forms6, Forms12 e Java, através de metodologia Scrum. Durante o estágio, participei de Job Rotations onde pude atuar em diferentes produtos e áreas da empresa, ocasionalmente realizando funções de Tester e Analista Funcional, além de participar da criação de projetos internos de desenvolvimento  utilizando Python e frameworks como Angular e SpringBoot. Também tive a oportunidade de participar de um projeto externo com equipe baseada no Texas/EUA, para o desenvolvimento  e automatização de fluxos de trabalho utilizando VBA em Excel e Word.",
+      "role": "Estagiária de Desenvolvimento"
+    }
+  },
+
   "sections": {
-    "workExperience": "Experiência",
+    "workExperience": {
+      "title": "Experiência Profissional",
+      "experience": [
+        {
+          "companyName": "Netwire",
+          "periodStart": "MAY-2015",
+          "periodEnd": "SEP-2016",
+          "description": "I was part of the Technical Support team, being responsible for the preparation of different files to be used in translation tools, like manuals, whitepapers, packages, documentation, articles, among others; recreation of PDF files in editable format and desktop publishing/diagramming using softwares like Adobe Indesign, Adobe Illustrator, Adobe Framemaker, CorelDraw and Office applications. I also acted in the creation of E-learning using Web-based Training (WBT) tools and Articulate Softwares. Campinas/SP."
+        },
+        {
+          "companyName": "Mstech",
+          "periodStart": "FEV-2012",
+          "periodEnd": "FEV-2014",
+          "description": "I worked in the creation of layouts, illustrations and interface design for educational games, websites and applications. Bauru/SP."
+        },
+        {
+          "companyName": "Completa - Atacadista",
+          "periodStart": "NOV-2010",
+          "periodEnd": "FEV-2012",
+          "description": "Creation and design of e-mail marketing, banners, catalogs and stationery. Bauru/SP."
+        }
+      ]
+    },
     "education": "Formação acadêmica",
     "languages": "Idiomas"
   },

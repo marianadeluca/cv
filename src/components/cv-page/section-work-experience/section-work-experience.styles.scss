@@ -1,1 +1,28 @@
 @import "../../../_assets/_variables.scss";
+
+.work-experience {
+  display: flex;
+  font-family: $font-mono;
+  gap: 32px;
+  margin-bottom: 48px;
+
+  &__details {
+    &--companyName {
+      margin-block: 0;
+    }
+    &--description {
+      font-weight: lighter;
+      font-size: 15px;
+      line-height: 1.6;
+      //   letter-spacing: 1.2pt;
+      text-align: left;
+
+      font-style: italic;
+    }
+    &--role {
+      color: $color-2;
+      font-weight: lighter;
+      //   font-style: italic;
+    }
+  }
+}

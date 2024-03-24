@@ -24,8 +24,45 @@
     "december": "dec"
   },
 
+  "workExperience": {
+    "Encoda": {
+      "description": "I acted as a Web Developer assisting in bug fixing, maintenance and creation of web pages for Fundação Estudar, among other clients. I developed in a Linux environment using Docker and Git for versioning control, HTML5/CSS3, MySql, Ruby on Rails, AngularJS, JQuery, Bootstrap, Sass, Wordpress. Besides that, I had the opportunity to be responsible for the creation of a website in blog format using Ruby on Rails and JavaScript, in addition to implementing SEO tools, the blog.rpgist.net.",
+      "role": "Intern"
+    },
+    "Netwire": {
+      "description": "I was part of the Technical Support team, being responsible for the preparation of different files to be used in translation tools, like manuals, whitepapers, packages, documentation, articles, among others; recreation of PDF files in editable format and desktop publishing/diagramming using softwares like Adobe Indesign, Adobe Illustrator, Adobe Framemaker, CorelDraw and Office applications. I also acted in the creation of E-learning using Web-based Training (WBT) tools and Articulate Softwares. Campinas/SP.",
+      "role": "Technical Support"
+    },
+    "Thomson Reuters": {
+      "description": "Software development and maintenance using Oracle PL/SQL, Centura Team Developer, Forms6, Forms12 and JavaScript languages, using Scrum methodology. Throughout my internship, I participated in Job Rotations, where I was able to work in different products and areas of the company, occasionally performing functions as Tester and Functional Analyst; in addition to that I took part in the creation of internal development projects using Python and frameworks like Angular and Springboot. I also had the opportunity to work on an external project, developing workflow automation using VBA in Excel and Word. Campinas/SP.",
+      "role": "Intern"
+    }
+  },
+
   "sections": {
-    "workExperience": "Work Experience",
+    "workExperience": {
+      "title": "Work Experience",
+      "experience": [
+        {
+          "companyName": "Netwire",
+          "periodStart": "MAY-2015",
+          "periodEnd": "SEP-2016",
+          "description": "I was part of the Technical Support team, being responsible for the preparation of different files to be used in translation tools, like manuals, whitepapers, packages, documentation, articles, among others; recreation of PDF files in editable format and desktop publishing/diagramming using softwares like Adobe Indesign, Adobe Illustrator, Adobe Framemaker, CorelDraw and Office applications. I also acted in the creation of E-learning using Web-based Training (WBT) tools and Articulate Softwares. Campinas/SP."
+        },
+        {
+          "companyName": "Mstech",
+          "periodStart": "FEV-2012",
+          "periodEnd": "FEV-2014",
+          "description": "I worked in the creation of layouts, illustrations and interface design for educational games, websites and applications. Bauru/SP."
+        },
+        {
+          "companyName": "Completa - Atacadista",
+          "periodStart": "NOV-2010",
+          "periodEnd": "FEV-2012",
+          "description": "Creation and design of e-mail marketing, banners, catalogs and stationery. Bauru/SP."
+        }
+      ]
+    },
     "education": "Education",
     "languages": "Languages"
   },

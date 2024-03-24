@@ -2,7 +2,9 @@
 
 .date-period {
   color: $color-light-gray;
+  display: block;
   font-family: $font-mono;
-  font-size: 12px;
-  text-transform: capitalize;
+  font-size: 14px;
+  text-transform: uppercase;
+  min-width: max-content;
 }

@@ -26,6 +26,8 @@ function SectionAbout() {
         />
       </div>
 
+      <div className="about__animation--shadow"></div>
+
       <div className="about__text">
         <p>
           O que me motiva profissionalmente é a resolução de problemas e a

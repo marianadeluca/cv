@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.scss";
 
 import MainComponent from "./components/main-component/main-component.component";
